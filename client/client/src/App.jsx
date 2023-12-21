@@ -43,7 +43,7 @@ function App() {
           <Route path="/userinputs" element={<Userinputs />}></Route>
           <Route path="/userinputslarge" element={<Userinputslarge />}></Route>
           <Route path="/payment" element={<Paymentstep />}></Route>
-          <Route path="/adminlogin" element={<AdminAuth />}></Route>
+          <Route path="/admin" element={<AdminAuth />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/signup" element={<Signup />}></Route>
           <Route path="/blogs" element={<Blog />}></Route>
@@ -57,7 +57,7 @@ function App() {
             element={
               <Routes>
                 {/* Allow /adminlogin route */}
-                <Route path="/adminlogin" element={<AdminAuth />} />
+                <Route path="/admin" element={<AdminAuth />} />
                 {/* Redirect any other unknown route to the root */}
                 <Route path="/*" element={<Navigate to="/" />} />
               </Routes>
