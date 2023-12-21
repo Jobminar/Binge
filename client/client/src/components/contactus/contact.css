@@ -1,0 +1,281 @@
+.contact-con{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    background-color:  linear-gradient(180deg, #000000 59.96%, #B46161 134.18%);
+} 
+.main-contact{
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 30rem;
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+
+}
+.main-head{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 0rem;
+}
+.main-head p{
+    font-family: Oswald;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 100px;
+    letter-spacing: 0em;
+  
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* Create a linear gradient using the specified RGB values */
+    background-image: linear-gradient(to right, rgb(180, 97, 97), rgb(252, 195, 182));
+    /* border: 1px solid red; */
+
+}
+.form{
+    /* border: 1px solid red; */
+    background-color: rgba(255, 232, 232, 1);
+}
+.form p{
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(128, 48, 48, 1);
+    
+
+}
+input{
+    width: 20rem;
+    border: none;
+    border-bottom:2px solid rgba(180, 97, 97, 1);
+    background-color: rgba(255, 232, 232, 1);
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 1rem;
+    padding-top: 0rem; */
+}
+
+.sendmessage{
+    display: flex;
+    justify-content: right;
+    align-items: bottom;
+    /* border: 1px solid black; */
+    margin-top: 2rem;
+}
+.sendmessage img{
+    width: 10rem;
+    height: 4rem;
+    
+}
+.contact-grid{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 2rem;
+}
+.contact-grid img{
+    width: 4rem;
+}
+.footer-con{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 3rem;
+    margin: 0rem ;
+    background-color: rgba(180, 97, 97, 0.7);
+}
+.contact-info,address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    /* border: 1px solid black; */
+   text-align: left;
+}
+.contact-info div{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.contact-info img{
+    padding: 0rem 1rem;
+}
+.contact-info span{
+    color: rgba(250, 192, 180, 1);
+
+
+}
+.address div{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+}
+.address img{
+    padding: 0rem 1rem;
+}
+.address span{
+    color: rgba(250, 192, 180, 1);
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.socialmedia img{
+    padding: 0.5rem;
+}
+.mobile-socialmedia{
+    display: none;
+}
+.followus{
+    display: flex;
+    justify-content: right;
+    align-items: last baseline;
+    /* border: 1px solid black; */
+    margin-top: 0rem;
+}
+.followus img{
+    width: 10rem;
+    height: 4rem;
+}
+
+@media (min-width: 360px) and (max-width: 600px){
+    .contact-con{
+        /* border: 5px solid green; */
+    }
+    .main-contact{
+        width: 100%;
+        height: auto;
+        display: flex;
+        /* grid-template-columns: 50% 30% 20%; */
+        flex-direction: column-reverse;
+        /* border: 1px solid green; */
+
+    }
+    .main-head{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .main-head p{
+       margin: 1rem 0rem;
+        font-size: 56px;
+        line-height: 60px;
+    
+    }
+    .form{
+        /* border: 1px solid red; */
+        background-color: rgba(255, 232, 232, 1);
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form p{
+        font-family: IBM Plex Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: center;
+        color:rgba(128, 48, 48, 1);
+        
+    
+    }
+   
+    input{
+        width: 18rem;
+        border: none;
+        border-bottom:2px solid rgba(180, 97, 97, 1);
+        background-color: rgba(255, 232, 232, 1);
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 0rem;
+        margin-bottom: 0.5rem;
+    }
+    .contact-grid{
+        display: flex;
+        justify-content: right;
+        align-items: start;
+        padding: 2rem;
+       
+    }
+    .contact-grid img{
+        width: 3rem;
+        border: 1px solid green;
+        margin-right: 1rem;
+    }
+    .footer-con{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem 0rem;
+        margin: 0rem ;
+        background-color: rgba(180, 97, 97, 0.7);
+    }
+    .contact-info,address{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        /* border: 1px solid black; */
+       text-align: left;
+    }
+    .contact-info div{
+        padding: 0.5rem;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .contact-info img{
+        padding: 0rem 1rem;
+    }
+    .contact-info span{
+        color: rgba(250, 192, 180, 1);
+    
+    
+    }
+    .address div{
+        padding: 0.5rem;
+        display: flex;
+        justify-content: left;
+        align-items: start;
+    }
+    .address img{
+        padding: 0rem 1rem;
+    }
+    .address span{
+        color: rgba(250, 192, 180, 1);
+        font-family: IBM Plex Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .socialmedia{
+        display: none;
+      
+    }
+    .mobile-socialmedia{
+        display: block;
+        margin-left: 1.5rem;
+    }
+    .mobile-socialmedia img{
+       
+        width: 2rem;
+        height: 2rem;
+        padding: 0.5rem 1rem;
+        color: black;
+    }
+}

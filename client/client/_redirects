@@ -1,0 +1,4 @@
+# _redirects
+
+/adminlogin    /adminlogin
+/*             /

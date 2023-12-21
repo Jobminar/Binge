@@ -1,0 +1,172 @@
+/* General styling */
+.img-equal-height {
+  height: 350px; /* Adjust the height as needed */
+  width: auto;
+}
+
+
+.img-large {
+  max-height: 400px; /* Adjust the max-height as needed */
+  width: auto;
+}
+.whatsapp-container {
+  height: 100vh;
+}
+
+.gradient-background {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  background: linear-gradient(to bottom, #303030, #484848, #303030);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 190px;
+  height: auto;
+}
+
+.dynamic-effect {
+  color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.dynamic-effect:hover {
+  transform: scale(1.1);
+}
+
+/* Card and details styling */
+.whatsapp-card {
+  margin: 3em;
+  background: linear-gradient(to bottom, #000000, rgb(12, 8, 9));
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  /* Animation for card entrance */
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInUp 0.5s forwards ease-in-out;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.payment-details {
+  margin-top: 20px;
+}
+
+/* Button styling */
+.btn-home,
+.btn-success {
+  background-color: #008000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hover-effect:hover {
+  filter: brightness(1.2);
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+  .whatsapp-card {
+    padding: 15px;
+  }
+
+  .btn-home,
+  .btn-success {
+    padding: 8px 15px;
+  }
+  #Phonepe-but {
+    margin-left: 80px;
+    width:220px /* Adjust the right margin as needed */
+  }
+}
+
+/* Additional gradients */
+.additional-gradient-1 {
+  background: linear-gradient(to right, #ff4500, #ff6347, #ff4500);
+}
+
+.additional-gradient-2 {
+  background: linear-gradient(to right, #4169e1, #87cefa, #4169e1);
+}
+
+.additional-gradient-3 {
+  background: linear-gradient(to right, #800080, #ba55d3, #800080);
+}
+
+.qr-code-section {
+  margin-top: 20px;
+}
+
+.qr-code-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.or-heading {
+  color: white;
+  font-size: 1.0em;
+  margin: 0;
+}
+
+/* Updated styles for grid-container and grid-item */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.grid-item {
+  background: linear-gradient(rgba(81, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+}
+.btn-copy-upi {
+  width: 150px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  /* Add any other styles you want */
+}
+#Phonepe-but {
+  margin-right: 100px; /* Adjust the right margin as needed */
+}
+
+/* ... (existing styles) */

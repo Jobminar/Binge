@@ -1,0 +1,552 @@
+
+
+/* In your CSS file */
+.mini-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+/* Add this to your "mini-home.css" file */
+@media (max-width: 768px) {
+    .mini-head {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-end; /* Align items to the right */
+    }
+  
+   
+  }
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .input-sub {
+      width: 100%;
+      margin-bottom: 10px; /* Add space between input sections */
+    }
+  
+    .input1,
+    .input4 {
+      width: calc(50% - 10px); /* Make input fields 50% width with a slight margin */
+      margin-bottom: 10px; /* Add space between input fields */
+      margin-right: 10px; /* Add right margin to create space between the fields */
+    }
+  
+    /* Add any additional styles for mobile layout as needed */
+  }
+  @media (max-width: 768px) {
+    .table-section {
+      display: block !important;
+       /* Override the inline styles */
+    }
+  
+    .advance-booking-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+  
+    /* Adjust font size for specific elements within the table section */
+    .table-section table {
+      font-size: 2px; 
+      margin: auto;/* Adjust the font size as needed */
+    }
+  
+    /* Adjust font size for specific elements within the advance booking container */
+    .advance-booking-container {
+      font-size: 4px; /* Adjust the font size as needed */
+    }
+  }
+/* Add this to your "mini-home.css" file */
+@media (max-width: 768px) {
+  }
+
+  .table-section {
+    display: block;
+  }
+  
+  .advance-booking-container {
+    display: none;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .input-sub {
+      flex: 1; /* Make input-sub flex items grow equally */
+      margin-right: 0; /* Remove right margin for better spacing */
+    }}
+  
+/* Style to make the title clickable */
+
+.clickable {
+    cursor: pointer;
+    color: rgb(255, 224, 234); /* Optional: Change the color to indicate it's clickable */
+  }
+  
+  /* Style to control the display of the advanced booking container */
+  .advance-booking-container {
+    display: none;
+  }
+  
+  .advance-booking-container.show {
+    display: block;
+  }
+  
+  .advance-booking-container.hide {
+    display: none;
+  }
+  .mini-home-con{
+    margin: 0rem;
+    height: auto;
+    padding: 0rem 3rem;
+    font-family: Oswald;
+    /* border: 1px solid green; */
+    background-color: black;
+}
+.input-tittle{
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+.input-section{
+    /* border: 1px solid green; */
+    padding: 0rem 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.input-head{
+    display: flex;
+    /* border: 1px solid green; */
+    justify-content: space-evenly;
+    align-items:last baseline;
+    /* column-gap: 7rem; */
+    margin-top: 3rem;
+    padding: 0rem 3rem;
+    
+}
+.input-head p{
+    padding: 0px;
+    display: flex;
+    /* border: 1px solid green; */
+    justify-content: space-between;
+    align-items: baseline;
+    
+    margin: 0rem;
+    
+}
+input{
+    
+    width: 10rem;
+    height: 2rem;
+    /* background-color: #B46161; */
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding: 0px;
+}
+.input1{
+    width: 15rem;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    color: black;
+    background-color: white;
+    border: none;
+    height: 2.5rem;
+
+}
+.input1tittle{
+    width: 15rem;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+
+.input4{
+    width: 15rem;
+    padding: 0px;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+  
+}
+.input-sub{
+    display: flex;
+    flex-direction: column;
+   
+}
+.input-buttons{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid green; */
+    align-items: center;
+    column-gap: 0.5rem;
+    margin: 0rem;
+    padding: 0rem;
+   
+}
+.input-buttons span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    
+}
+
+.selected-row {
+    background-color: lightblue; /* Change background color as desired */
+    /* Additional styles for selected row */
+}
+
+.input-sub p{
+    color: white;
+    padding: 0rem;
+    margin-bottom: 1.5rem;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.result{
+    color: white;
+}
+/* table */
+.slots{
+    font-family: Oswald;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+.table-section{
+    /* border: 1px solid green; */
+    color: white;
+    padding: 3rem 0rem;
+    font-family: Oswald;
+ 
+}
+table{
+    /* border: 1px solid green; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.thead{
+    
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+    padding: 1rem 0rem;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+  
+
+
+}
+td{
+    width: 20rem;
+    height: 3rem;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    padding: 0.5rem 0rem;
+    color: white;
+
+    
+}
+td:hover{
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    padding: 0.5rem 0rem;
+    color: rgba(249, 197, 197, 1);
+
+    
+}
+.mobile-view{
+    display: block;
+}
+.book-now{
+
+   
+    padding: 2rem 0rem;
+   
+     text-align: right;
+     /* border: 1px solid green; */
+     
+}
+.book-now:hover{
+    cursor: pointer;
+}
+.book-now img{
+    width: 12rem;
+    height: 5rem;
+}
+
+.input-head-mobile-version{
+    display: none;
+}
+.mobile-version-slot-booking{
+    display: none;
+}
+
+
+
+
+/* responsive */
+
+
+
+
+
+@media (min-width: 360px) and (max-width: 600px){
+    .mini-home-con{
+        margin: 0rem;
+        padding: 1rem 1rem;
+      
+        height: auto;
+        background: none;
+    }
+   
+
+    .grid-img-mini{
+        width: 3.5rem;
+        height: 2rem;
+        /* border: 1px solid green; */
+        /* display: none; */
+        color: white;
+    }
+    .input-section{
+      
+        padding: 0rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    input{
+    
+        width: 7rem;
+        height: 2.5rem;
+       
+    }
+   
+    .input-sub{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .input-sub p{
+        color: white;
+        padding: 0rem;
+        margin: 0.5rem;
+        font-family: IBM Plex Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    .result{
+        color: white;
+    }
+   
+    .table-section{
+      
+        padding: 1rem 0rem;
+        
+    
+    }
+    th{
+        width: 10rem;
+        height: 2rem;
+        text-align: center;
+        padding: 1rem 0rem;
+        
+        color: linear-gradient(0deg,black ,white );
+    
+    
+    }
+    td{
+        width: 20rem;
+        height: 2rem;
+        text-align: center;
+        font-family: IBM Plex Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0em;
+        padding: 0.5rem 0rem;
+        color: rgba(249, 197, 197, 1);
+    
+        
+    }
+    .table-section{
+        display: none;
+    }
+    .mobile-view{
+        display: block;
+        margin: 1rem 0rem;
+        /* border: 1px solid green; */
+    }
+   .date-section{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: left;
+   }
+   .date-sub-section h1{
+        font-family: Oswald;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+       color:rgba(249, 197, 197, 1);
+       
+   }
+   .date-section p{
+    font-family: IBM Plex Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  white;
+    
+   }
+   th{
+    color:white;
+   }
+   .book-now{
+
+   
+    padding: 1rem 0rem;
+   
+     text-align: right;
+     /* border: 1px solid green; */
+     
+    }
+    .book-now:hover{
+        cursor: pointer;
+    }
+    .book-now img{
+        width: 10rem;
+        height: 3rem;
+    }
+}
+/* input-head-mobile-version */
+@media (min-width: 360px) and (max-width: 600px){
+    .input-head-mobile-version{
+        display: block;
+    }
+    .input-head{
+        display: none;
+
+    }
+    .input-section{
+        display: none;
+    }
+    .input-head-mobile-version{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid green; */
+        justify-content: center;
+        align-items: center;
+        margin: 1.5rem 0rem;
+    }
+    .input-head-mobile-version div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    /* mobile-version-for-slot-booking */
+    .mobile-version-slot-booking{
+        display: block;
+    }
+    .desktop-version-slot-booking{
+        display: none;
+    }
+    .mobile-date-time{
+        color: white;
+        /* border: 1px solid green; */
+        display: flex;
+        justify-content: space-evenly;
+        display: flex;
+        
+
+    }
+    .mobile-date-time p{
+        font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:  white;
+    }
+    
+    .mobile-date{
+        /* border: 1px solid green; */
+    }
+    .mobile-price{
+        /* border: 1px solid green; */
+    }
+    .slot-id{
+        /* border: 1px solid green; */
+    }
+    tbody{
+        /* border: 1px solid green; */
+    }
+    .slot-checkbox{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .slot-checkbox input{
+        margin: 0px;
+        padding: 0px;
+        width: 2rem;
+    }
+    .book-now{
+        margin: 1rem 0rem;
+    }
+}
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Semi-transparent white background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure it appears above other elements */
+  }
+  
+  .loader-container h6 {
+    text-align: center;
+    margin-bottom: 20px;
+  }

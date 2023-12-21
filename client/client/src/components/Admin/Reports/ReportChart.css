@@ -1,0 +1,22 @@
+/* ReportsChart.css */
+
+.reports-chart-container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.chart-controls {
+  margin-bottom: 20px;
+}
+
+.chart-controls button {
+  margin-right: 10px;
+}
+
+.chart-container {
+  margin-top: 20px;
+}
+
+/* Add more custom styles as needed */

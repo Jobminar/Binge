@@ -1,0 +1,61 @@
+/* Base styles for all devices */
+.payment-list {
+  list-style: none;
+  padding: 1px; /* Adjusted padding for better mobile view */
+}
+
+.payment-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px; /* Decreased margin for better spacing on mobile */
+}
+
+.payment-list dt {}
+
+.payment-list dd {
+  margin-left: 10px;
+  text-align: left; /* Align text to the left */
+  line-height: 1; /* Adjust line height to reduce spacing */
+}
+
+.payment-list dd span {
+  margin-left: 0;
+  text-align: left; /* Align text to the left */
+  line-height: 1; /* Adjust line height to reduce spacing */
+  font-size: 50%; /* Reduce font size by half */
+}
+
+.btn-primary {
+  background-color: darksalmon;
+  border: none; /* Remove border for a cleaner look */
+  width: 50%; /* Make the button 50% width on all screens */
+}
+
+.btn-primary:hover {
+  background-color: rgb(240, 147, 147);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .payment-list {
+    padding: 10px; /* Adjusted padding for smaller screens */
+  }
+
+  .payment-list li {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: flex-start;
+  }
+
+  .payment-list dd {
+    margin-left: 0; /* Remove left margin for better alignment on smaller screens */
+    margin-top: 5px; /* Add top margin for spacing between items */
+  }
+}
+
+.invoice-container {
+  height: 60px; /* Adjusted height for better fit */
+}
+.reduced-logo {
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+}

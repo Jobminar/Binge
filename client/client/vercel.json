@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+            "source": "/adminlogin",
+            "destination": "/adminlogin"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/"
+        }
+    ]
+}

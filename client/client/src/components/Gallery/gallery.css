@@ -1,0 +1,101 @@
+.gallery-con{
+    width: 100%;
+    height: auto;
+    background-color: linear-gradient(180deg, #000000 59.96%, #B46161 134.18%);;
+}
+.gallery-head{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    padding: 2rem 5rem;
+    align-items: center;
+}
+.gallery-head h1{
+    font-family: Oswald;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: left; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* Create a linear gradient using the specified RGB values */
+    background-image: linear-gradient(to right, rgb(180, 97, 97), rgb(252, 195, 182));
+    /* border: 1px solid red; */
+    padding: 0rem;
+    margin: 0rem;
+}
+.gallery-head img{
+    width: 5rem;
+    height: 3rem;
+}
+.main-image{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-image img{
+    width: 50rem;
+    height: 25rem;
+    padding: 3rem;
+ 
+}
+.sub-images{
+    padding: 2rem 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+
+
+@media (min-width: 360px) and (max-width: 600px){
+    
+    .gallery-head{
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid green; */
+        padding: 1rem 2rem;
+        align-items: center;
+    }
+    .gallery-head h1{
+  
+        font-size: 50px;
+        line-height: 52px;
+       
+    }
+    .gallery-head img{
+        width: 3rem;
+        height: 1.5rem;
+    }
+    .main-image{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-image img{
+        width: 20rem;
+        height: 15rem;
+        padding: 1.5rem;
+     
+    }
+    .sub-images{
+        padding: 1rem 1.5rem;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        row-gap: 1.5rem;
+    
+    }
+    .sub-images img{
+        width: 4rem;
+        height: 3rem;
+    }
+    
+}

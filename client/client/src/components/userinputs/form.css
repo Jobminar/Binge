@@ -1,0 +1,43 @@
+.user-input{
+    width: 40rem;
+    height: 3rem;
+    background: rgba(255, 232, 232, 1);
+    color: black;
+    padding: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.34);
+    font-size: 20px;
+}
+.input-label{
+    font-family: IBM Plex Sans;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:white;
+    
+
+}
+label{
+    color: white;
+}
+.input-data{
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+
+}
+.reminder{color: green;}
+
+
+@media (min-width: 360px) and (max-width: 600px){
+    .user-input{
+        width: 20rem;
+        height: 3rem;
+        background: rgba(255, 232, 232, 1);
+        color: black;
+        padding: 0px;
+        border: 1px solid rgba(0, 0, 0, 0.34);
+        font-size: 20px;
+    }
+}

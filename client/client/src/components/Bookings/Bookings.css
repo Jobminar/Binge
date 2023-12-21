@@ -1,0 +1,75 @@
+/* booking.css */
+
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Light gray background color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Table styling */
+.user-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.user-details-table th, .user-details-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.user-details-table th {
+    background-color: #f2f2f2;
+}
+
+/* Extras Modal styling */
+.Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.Modal h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.Modal label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.Modal input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.Modal button {
+    background-color: #b03060;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Modal button:hover {
+    background-color: #d55f80;
+}

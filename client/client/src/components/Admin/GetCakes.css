@@ -1,0 +1,74 @@
+/* GetCakes.css - Dark Mode with Extra Animations */
+
+/* Header styles */
+h2 {
+    color: #ffd700; /* Gold color for dark mode */
+}
+
+/* Add Cake button style */
+.btn-primary {
+    background-color: #ffd700; /* Gold color for dark mode */
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #ffdb58; /* Lighter shade on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* Loading text style */
+.text-center {
+    margin-top: 20px;
+    color: #17a2b8; /* Bootstrap primary color */
+}
+
+/* Error alert style */
+.alert-danger {
+    margin-top: 20px;
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: #fff; /* Text color in dark mode */
+    border: 1px solid #dc3545; /* Border for better visibility */
+    padding: 10px;
+    border-radius: 5px;
+    animation: shake 0.5s ease-in-out; /* Shake animation on error */
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25%, 75% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+}
+
+/* Table styles */
+.table {
+    margin-top: 20px;
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* Text color in dark mode */
+}
+
+/* Cake image styles */
+.cake-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Delete button style */
+.btn-danger {
+    background-color: #dc3545; /* Bootstrap danger color */
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c; /* Darker shade on hover */
+    transform: rotate(360deg); /* 360-degree rotation on hover */
+}

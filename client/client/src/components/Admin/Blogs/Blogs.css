@@ -1,0 +1,136 @@
+
+.blog-container {
+  margin: 0;
+  height: 100vh;
+  padding: 3rem;
+  background: url("../../assets/images/Home-bg-img.jpeg") center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.blog-header h1 {
+  font-family: Oswald;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: center;
+  background: linear-gradient(90deg, #ffffff 0%, #b46161 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 2rem;
+}
+
+/* Blogs.css */
+/* Blogs.css */
+.blog-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    max-height: 500px; /* Set a max height for the scroll container */
+    overflow-y: auto;
+    width: 100%; /* Set initial width to 100% */
+  
+    /* Customize the scrollbar track */
+    scrollbar-color: #000000 #b46161; /* Set the color of the scrollbar track and thumb for Firefox */
+    scrollbar-width: thin; /* Set the width of the scrollbar */
+    transition: scrollbar-color 0.3s ease; /* Add a transition effect for Firefox */
+    scroll-behavior: smooth;
+border-radius: 5px;
+  }
+  
+  /* On hover, change the scrollbar track color to transparent */
+  .blog-scroll-container:hover {
+    scrollbar-color: transparent transparent; /* Set the color of the scrollbar track and thumb on hover for Firefox */
+  }
+  
+  /* For webkit browsers (Chrome, Safari, Edge) */
+  .blog-scroll-container::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+  
+  .blog-scroll-container::-webkit-scrollbar-thumb {
+    background-color: #562f2f70; /* Set the color of the scrollbar thumb */
+    transition: background-color 0.3s ease; /* Add a transition effect for webkit browsers */
+  }
+  
+  /* On hover, change the background color of the scrollbar thumb to transparent for webkit browsers */
+  .blog-scroll-container:hover::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  
+  @media (min-width: 768px) {
+    /* Adjust width for larger screens */
+    .blog-scroll-container {
+      width: 90%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    /* Adjust width for even larger screens */
+    .blog-scroll-container {
+      width: 90%;
+    }
+  }
+  
+
+
+.blog-content h2 {
+  font-family: Oswald;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.blog-content p {
+  font-family: IBM Plex Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+  
+ 
+ /* Update the background property to make it transparent */
+.blog-card {
+    flex: 0 0 auto;
+    margin-right: 1rem;
+    background: none;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px; /* Adjust the card width as needed */
+  }
+  
+  .blog-content {
+    padding: 1rem;
+    background: none; /* Example: White background with 80% opacity */
+  }
+  
+  
+  .blog-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid white; /* Separator line */
+  }
+  
+  .home-icon {
+    font-size: 24px;
+  }
+
+  #grid-button {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    cursor: pointer;
+    padding: 1rem;
+    background-color: #b46161; /* Add your button background color */
+    color: #ffffff; /* Add your button text color */
+    border-radius: 50%;
+  }

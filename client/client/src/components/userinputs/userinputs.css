@@ -1,0 +1,232 @@
+.miniinput-con{
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding-bottom: 5rem;
+   
+}
+
+.logo-img-input{
+    width: 10rem;
+    height: 10rem;
+}
+.dateandtime-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputs-con{
+    
+    /* border: 1px solid green; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-items: center;
+}
+.events{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    align-items: center;
+    column-gap: 2rem;
+    color: white;
+    /* border: 1px solid green; */
+}
+/* mini-home.css */
+
+
+  /* Style label to align with the custom checkbox */
+  .events-sub label {
+    vertical-align: middle; /* Aligns the label vertically with the checkbox */
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(249, 197, 197, 1);
+
+  }
+  
+.nextstep-result-con{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid green; */
+    /* height: 10rem; */
+    margin: 2rem;
+}
+.result-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: end;
+    /* border: 1px solid green; */
+}
+
+.nextstep{
+   /* border: 1px solid green; */
+   padding: 0rem;
+
+}
+.nextstep img{
+    width: 10rem;
+    height: 5rem;
+    padding: 0rem;
+}
+
+.result-input{
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(249, 197, 197, 1);
+        padding-top: 0rem;
+        margin: 0rem;
+        
+        
+}
+.taxes{
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(250, 192, 180, 1);
+
+}
+.events-sub{
+    display: flex;
+   
+    /* border: 1px solid green; */
+    justify-content: center;
+    align-items: center;
+}
+.input-event{
+    /* border: 5px solid green; */
+    margin: 0rem;
+}
+
+
+@media (min-width: 360px) and (max-width: 600px){
+    .miniinput-con{
+        background-color: black;
+        color: white;
+        height: 100%;
+        padding-bottom: 2rem;
+        
+    }
+    
+    .logo-img-input{
+        width: 5rem;
+        height:5rem;
+    }
+    .dateandtime-input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputs-con{
+        
+        /* border: 1px solid green; */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       align-items: center;
+    }
+    .events{
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        align-items: center;
+        column-gap: 2rem;
+        color: white;
+        /* border: 1px solid green; */
+    }
+    /* mini-home.css */
+    
+    
+      /* Style label to align with the custom checkbox */
+      .events-sub label {
+        vertical-align: middle; /* Aligns the label vertically with the checkbox */
+        font-family: Oswald;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(249, 197, 197, 1);
+    
+      }
+      
+    .nextstep-result-con{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid green; */
+        /* height: 10rem; */
+        margin: 2rem;
+    }
+    .result-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        /* border: 1px solid green; */
+    }
+    
+    .nextstep{
+       /* border: 1px solid green; */
+       padding: 0rem;
+    
+    }
+    .nextstep img{
+        width: 6rem;
+        height: 3rem;
+        padding: 0rem;
+    }
+    
+    .result-input{
+        font-family: IBM Plex Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(249, 197, 197, 1);
+            padding-top: 0rem;
+            margin: 0rem;
+            
+            
+    }
+    .taxes{
+        font-family: IBM Plex Sans;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(250, 192, 180, 1);
+    
+    }
+    .events-sub{
+        display: flex;
+       
+        /* border: 1px solid green; */
+        justify-content: center;
+        align-items: center;
+    }
+    .input-event{
+       
+        margin: 0rem;
+    }
+}

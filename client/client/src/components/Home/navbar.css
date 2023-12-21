@@ -1,0 +1,100 @@
+
+
+
+
+.nav-con{
+    /* width: 100%; */
+    height: 80vh;
+    background-color:rgba(221, 153, 146, 1);
+    
+}
+.grid-button{
+    text-align: right;
+    background-color:rgba(221, 153, 146, 1);
+    padding:2rem; 
+}
+.nav-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    row-gap: 2rem;
+    padding: 0rem 10rem;
+    font-family: Oswald;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0em;
+    color: rgba(161, 57, 57, 1);
+
+
+}
+.nav-con div{
+    border-bottom: 3px solid rgba(161, 57, 57, 1);
+    cursor: pointer;
+}
+
+@media (min-width: 360px) and (max-width: 600px){
+
+   
+    .grid-button{
+        text-align: right;
+        background-color:rgba(221, 153, 146, 1);
+        padding:2rem; 
+        
+    }
+    .grid-button img{
+        width: 3rem;
+        height: 2rem;
+    }
+    .nav-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        row-gap: 1.5rem;
+        padding: 0rem 5rem;
+        font-family: Oswald;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 43px;
+        letter-spacing: 0em;
+        color: rgba(161, 57, 57, 1);
+    
+    
+    }
+    .nav-con div{
+        border-bottom: 2px solid rgba(161, 57, 57, 1);
+        cursor: pointer;
+    }
+
+}
+.login-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-bottom: 8rem; /* Adjust the margin for spacing */
+  }
+  
+  .login-section p {
+    font-size: 20px; /* Set the font size for the description */
+    margin-bottom: 0.2rem; /* Add margin for spacing */
+  }
+  
+  .login-section button {
+    background-color: #8b0000; /* Maroon color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 0.1rem 2rem;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-bottom:0.2rem /* Add smooth transition for hover effect */
+  }
+  
+  .login-section button:hover {
+    background-color: #ffd700; /* Gold color on hover */
+    color: #8b0000; /* Maroon text color on hover */
+  }

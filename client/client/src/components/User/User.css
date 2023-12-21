@@ -1,0 +1,119 @@
+/* User.css */
+
+.logincard {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    /* Set background image */
+    background-image: url("../../assets/images/Home-bg-img.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .logincard h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .logincard label {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .logincard input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .logincard button {
+    background-color: #8b0000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logincard button:hover {
+    background-color: #ffd700;
+  }
+  
+  .logincard p {
+    margin-top: 16px;
+  }
+  
+  .logincard a {
+    color: #8b0000;
+  }
+  
+  /* Logo styling */
+  .logo-container {
+    background-image: url("../../assets/images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 80px; /* Set the desired height */
+  }
+  
+  /* User.css */
+
+.background-image {
+    background-image: url("../../assets/images/Home-bg-img.jpeg");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+  }
+  
+  .small-card {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #grid-button {
+    cursor: pointer;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #e0e0e0;
+    }
+  
+    svg {
+      width: 24px;
+      height: 24px;
+      color: #333; /* Icon color */
+    }
+  }
+  

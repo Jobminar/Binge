@@ -1,0 +1,10 @@
+.deceration-shop{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem 3rem;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    justify-content: space-evenly;
+    margin: 3rem 0rem;
+    /* border: 1px solid green; */
+}

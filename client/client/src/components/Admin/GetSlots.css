@@ -1,0 +1,121 @@
+/* GetSlots.css - Dark Mode Spider-Man Venom Style */
+
+#main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #1c1c1c; /* Dark background color */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff; /* Text color */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Glowing effect */
+}
+
+#main-title {
+    text-align: center;
+    color: #ff4500; /* Venom orange-red color */
+}
+
+#filter-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#filter-label {
+    margin-right: 1rem;
+    color: #808080; /* Light gray color */
+}
+
+#availability-filter label {
+    margin-right: 1rem;
+    color: #808080; /* Light gray color */
+}
+
+#availability-filter input:checked + label {
+    color: #4caf50; /* Spider-Man green color */
+}
+
+#add-slot-button {
+    background-color: #cc3700; /* Darker shade for dark mode */
+    border-color: #cc3700;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#add-slot-button:hover {
+    background-color: #a82e00; /* Darker shade on hover */
+    border-color: #a82e00;
+}
+
+#slots-table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #fff;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+#slots-table th,
+#slots-table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #363636; /* Dark gray border */
+}
+
+#slots-table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #363636;
+}
+
+#slots-table tbody + tbody {
+    border-top: 2px solid #363636;
+}
+
+#slots-table .table {
+    background-color: #1c1c1c;
+}
+
+#slots-table-bordered {
+    border: 1px solid #363636;
+}
+
+#slots-table-bordered th,
+#slots-table-bordered td {
+    border: 1px solid #363636;
+}
+
+#slots-table-bordered thead th,
+#slots-table-bordered thead td {
+    border-bottom-width: 2px;
+}
+
+#delete-slot-button {
+    color: #fff;
+    background-color: #cc3700; /* Darker shade for dark mode */
+    border-color: #cc3700;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#delete-slot-button:hover {
+    color: #fff;
+    background-color: #a82e00; /* Darker shade on hover */
+    border-color: #a82e00;
+}
+
+/* Add animation effects */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#main-container,
+#slots-table,
+#add-slot-button,
+#delete-slot-button {
+    animation: fadeIn 0.8s ease-in-out;
+}

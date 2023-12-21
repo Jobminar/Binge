@@ -1,0 +1,106 @@
+/* styles.css */
+
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, black 0%, #B46161 100%);
+  color: white;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+#title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  margin-bottom: 15px;
+}
+
+.inputLabel {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.theaterType label {
+  margin-right: 15px;
+}
+
+.addExtrasButton {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.removeExtrasButton {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.generateBillButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.clearFormButton {
+  background-color: #6c757d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.printButton {
+  background-color: #ffc107;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.closeButton {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#popup p {
+  margin-bottom: 15px;
+}

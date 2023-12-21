@@ -1,0 +1,20 @@
+/* toastify-styles.css */
+
+/* Custom styles for the close button */
+.Toastify__close-button {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #fff; /* Adjust the color as needed */
+  }
+  
+  /* Custom styles for the close button on hover */
+  .Toastify__close-button:hover {
+    color: #ff0000; /* Change the color on hover */
+  }
+  
+  /* Custom styles for the SVG icon */
+  .Toastify__svg-icon {
+    fill: #fff; /* Adjust the fill color as needed */
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+  }
+  

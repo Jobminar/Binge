@@ -1,0 +1,68 @@
+.refund-con{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+.refund-sub{
+   
+    padding: 2rem;
+
+}
+.logo-img{
+  width: 10rem;
+  height: 10rem;
+}
+.logo-img:hover{
+  cursor: pointer;
+}
+  .refund-sub h1{
+    font-family: Oswald;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* Create a linear gradient using the specified RGB values */
+    background-image: linear-gradient(to right, rgb(180, 97, 97), rgb(252, 195, 182));
+    /* border: 1px solid red; */
+
+    
+
+  }
+  li{
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+     color: rgba(250, 192, 180, 1);
+     padding-bottom: 2rem;
+  }
+ h2{
+  font-family: Oswald;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(250, 192, 180, 1);
+padding-left: 1rem;
+ }
+ span{
+  font-family: Oswald;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+ }
+
+
+ 
+  @media (min-width: 360px) and (max-width: 600px){
+   
+  }
