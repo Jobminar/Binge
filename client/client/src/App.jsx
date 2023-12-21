@@ -51,7 +51,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />}></Route>
           <Route path="/refund" element={<Refund />}></Route>
           <Route path="/contactus" element={<Contact />}></Route>
-          {/* Wildcard route for unknown routes */}
+          {/* Wildcard route for unknown routes except admin */}
           <Route
             path="/*"
             element={
