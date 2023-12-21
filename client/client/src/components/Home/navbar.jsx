@@ -61,16 +61,7 @@ const Navbar = () => {
             navigate("/refund");
           }}
         >
-          REFUND
-        </div>
-        <div
-          className="user-icon"
-          onClick={() => {
-            handleAdminClick();
-          }}
-          style={{ marginTop: "0", marginBottom: "1rem" }}
-        >
-          <FaUser style={{ fontSize: "18px" }} />
+          REFUND POLICY
         </div>
       </div>
     </>

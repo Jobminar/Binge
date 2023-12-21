@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
+import { Navigate } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home/home";
 import Navbar from "./components/Home/navbar";
@@ -50,6 +51,18 @@ function App() {
           <Route path="/gallery" element={<Gallery />}></Route>
           <Route path="/refund" element={<Refund />}></Route>
           <Route path="/contactus" element={<Contact />}></Route>
+          {/* Wildcard route for unknown routes */}
+          <Route
+            path="/*"
+            element={
+              <Routes>
+                {/* Allow /adminlogin route */}
+                <Route path="/adminlogin" element={<AdminAuth />} />
+                {/* Redirect any other unknown route to the root */}
+                <Route path="/*" element={<Navigate to="/" />} />
+              </Routes>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </>
