@@ -81,6 +81,9 @@
 .nextstep img{
   transform: scale(1.1); 
 }
+.nextstep:hover img {
+    transform: scale(1.1); /* Scale up by 10% on hover */
+}
 
 .result-input{
     font-family: IBM Plex Sans;
