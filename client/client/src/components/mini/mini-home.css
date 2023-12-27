@@ -303,6 +303,9 @@ td:hover{
     width: 6rem;
     height: 5rem;
 }
+.book-now:hover img {
+    transform: scale(1.1); 
+}
 
 .input-head-mobile-version{
     display: none;
