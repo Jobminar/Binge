@@ -196,11 +196,17 @@
        padding: 0rem;
     
     }
-    .nextstep img{
-        width: 6rem;
-        height: 3rem;
-        padding: 0rem;
-    }
+ .nextstep img {
+    width: 6rem;
+    height: 3rem;
+    padding: 0rem;
+    transition: transform 0.3s ease-in-out; /* Add a transition effect */
+}
+
+.nextstep img:hover {
+    transform: scale(1.1); /* Scale up by 10% on hover */
+}
+
     
     .result-input{
         font-family: IBM Plex Sans;
