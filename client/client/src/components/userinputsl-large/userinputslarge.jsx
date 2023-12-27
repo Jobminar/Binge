@@ -85,10 +85,8 @@ const Userinputslarge = () => {
     <>
       <div className="miniinput-con">
         <div className="main-cake-con">
-       
-
           <div className="headding-cake">
-            <h1>LARGE</h1>
+            <h1>LUXI</h1>
             <p>Theater</p>
           </div>
           <img
@@ -114,7 +112,7 @@ const Userinputslarge = () => {
         <div>
           <div className="nextstep-result-con">
             <div className="result-con">
-              <h1 className="result-input">Total: {Total}</h1>
+              <h1 className="result-input">Total: ₹ {Total}/-</h1>
               <p className="taxes">(All tax Included)</p>
             </div>
             <div className="nextstep">

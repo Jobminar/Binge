@@ -211,7 +211,7 @@ const Cake = () => {
 
         <h1 className="result">
           <h1 className="result">
-            Total : <span>{Total}</span>
+            <span>Total: ₹ {Total}/-</span>
           </h1>
         </h1>
         <div>

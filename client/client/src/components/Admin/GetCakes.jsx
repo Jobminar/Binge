@@ -99,7 +99,7 @@ const GetCakes = () => {
             {cakes.map((cake) => (
               <tr key={cake._id}>
                 <td>{cake.cakeName}</td>
-                <td>{cake.price}</td>
+                <td>₹{cake.price}/-</td>
                 <td style={{ width: "30%", height: "30%" }}>
                   {cake.image && (
                     <img

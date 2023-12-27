@@ -67,7 +67,7 @@ const Bookings = () => {
       </button>
       {expandedDetails[index] && (
         <div>
-          <p>Total Price: ${booking.totalPrice || 0}</p>
+          <p>Total Price: ₹{booking.totalPrice || 0}/-</p>
           <p>Number of People: {booking.numberOfPeople}</p>
           <p>Date and Time: {new Date(booking.dateTime).toLocaleString()}</p>
         </div>

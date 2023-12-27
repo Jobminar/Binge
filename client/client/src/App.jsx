@@ -20,18 +20,30 @@ import Gallery from "./components/Gallery/gallery";
 import Refund from "./components/Refundpolicy/refund";
 import Contact from "./components/contactus/contact";
 import Userinputslarge from "./components/userinputsl-large/userinputslarge";
-import profile from "./assets/images/WhatsApp.jpeg";
 import Whatsappbeingin from "./components/whatsapp/Whatsapp";
-
+import profile from "./assets/images/logo.png";
 function App() {
+  const whatsappConfig = {
+    phoneNumber: "+918074020058",
+    accountName: "Binge-in",
+    avatar: profile,
+    style: {
+      width: "50px", // Set the desired width for the main wrapping div
+      // Add other styles as needed
+    },
+    chatboxStyle: {
+      height: "400px", // Set the desired height for the chat box
+      // Add other styles as needed
+    },
+    buttonStyle: {
+      // Add styles for the button
+    },
+  };
   return (
     <>
       <BrowserRouter>
-        <FloatingWhatsApp
-          phoneNumber="9963715817"
-          accountName="Binge-in"
-          avatar={profile}
-        />
+        <FloatingWhatsApp {...whatsappConfig} />
+
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/navbar" element={<Navbar />}></Route>

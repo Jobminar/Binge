@@ -300,7 +300,7 @@ td:hover{
     cursor: pointer;
 }
 .book-now img{
-    width: 12rem;
+    width: 6rem;
     height: 5rem;
 }
 
@@ -550,3 +550,14 @@ td:hover{
     text-align: center;
     margin-bottom: 20px;
   }
+
+  @media (min-width: 360px) and (max-width: 600px) {
+    /* ... Your existing mobile styles ... */
+
+    .book-now img {
+        height: 30%;
+        width: 30%; /* Adjust the width as needed */
+        max-width: 10rem; /* Optional: Set a maximum width if needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+}

@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import logo from "../../assets/images/logo.png";
 import grid from "../../assets/images/grid.png";
-import mini from "../../assets/images/mini-theater.jpeg";
-import large from "../../assets/images/large.jpeg";
+import large from "../../assets/images/mini-theater.jpeg";
+import mini from "../../assets/images/large.jpeg";
 import call from "../../assets/images/call.png";
 import youtube from "../../assets/images/icon _youtube with circle_youtube.png";
 import insta from "../../assets/images/icon _instagram with circle icon_insta.png";
@@ -106,10 +106,8 @@ const Home = () => {
               <p>
                 {/* Experience intimate cinematic moments and celebrate in style
                 within our mini private theatre's exclusive ambiance. */}
-                1799 for 4 or less people
-                399 per extra person 
-                Decoration is included
-                you can get your own food and cake
+                1799 for 4 or less people 399 per extra person Decoration is
+                included you can get your own food and cake
               </p>
               <button
                 onClick={() => {
@@ -125,10 +123,9 @@ const Home = () => {
                 {/* Immerse yourself in grand cinematic experiences and elevate
                 celebrations within our spacious and versatile large private
                 theatre. */}
-                2999 for 6 or less people
-                More that 4 people 399 per person 
-                Decoration is included in the price
-                you can get your own food and cake
+                2999 for 6 or less people More that 4 people 399 per person
+                Decoration is included in the price you can get your own food
+                and cake
               </p>
               <button
                 onClick={() => {

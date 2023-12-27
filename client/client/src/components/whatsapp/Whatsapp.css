@@ -169,4 +169,17 @@
   margin-right: 100px; /* Adjust the right margin as needed */
 }
 
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px rgba(115, 255, 0, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(183, 255, 0, 0.5);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(162, 255, 0, 0.5);
+  }
+}
+
+
 /* ... (existing styles) */

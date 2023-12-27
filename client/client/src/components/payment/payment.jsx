@@ -155,7 +155,7 @@ const Paymentstep = () => {
                     <li className="d-flex">
                       <h4 className="dt">Total Amount:</h4>
                       <h5>
-                        <strong>${generatePaymentData().totalAmount}</strong>
+                        <strong>₹{generatePaymentData().totalAmount}/-</strong>
                       </h5>
                     </li>
                   </ul>

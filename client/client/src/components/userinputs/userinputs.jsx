@@ -114,7 +114,8 @@ const Userinputs = () => {
         <div>
           <div className="nextstep-result-con">
             <div className="result-con">
-              <h1 className="result-input">Total: {Total}</h1>
+              <h1 className="result-input">Total: ₹ {Total}/-</h1>
+
               <p className="taxes">(All tax Included)</p>
             </div>
             <div className="nextstep">

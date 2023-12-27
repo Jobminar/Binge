@@ -94,11 +94,23 @@ const Whatsappbeingin = () => {
       {/* Main Content */}
       <main className="container mt-3">
         {/* Share via WhatsApp Button */}
-        <div className="row">
+        <div className="row ms-5">
           <div className="col">
             <h2 className="navbar-text dynamic-effect">
-              To confirm the booking, transfer Rs 700/- as booking amount to
-              displayed QR codes
+              To confirm the booking, transfer
+              <span
+                style={{
+                  fontSize: "1.5em",
+                  fontWeight: "bold",
+                  color: "green",
+                  margin: "1px",
+                  animation: "glow 1s infinite",
+                  textShadow: "0 0 5px rgba(0, 255, 0, 0.7)",
+                }}
+              >
+                ₹ 700/-
+              </span>
+              as booking amount to displayed QR codes
             </h2>
           </div>
         </div>

@@ -120,7 +120,7 @@ const GetDecorations = () => {
               decorations.map((decoration) => (
                 <tr key={decoration._id}>
                   <td>{decoration.decorationName}</td>
-                  <td>${decoration.price}</td>
+                  <td>₹{decoration.price}/-</td>
                   <td style={{ width: "30%", height: "30%" }}>
                     <img
                       style={{

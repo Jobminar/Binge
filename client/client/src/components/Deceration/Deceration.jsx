@@ -188,7 +188,7 @@ const Deceration = () => {
           ))}
         </div>
         <h1 className="result">
-          Total : <span>{count + pricetotalbefore}</span>
+          <span>Total : ₹ {count + pricetotalbefore}/-</span>
         </h1>
         <div
           className="nextstep"

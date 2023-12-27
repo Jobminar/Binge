@@ -52,7 +52,7 @@ const Contact = () => {
           <div className="contact-info">
             <div>
               <img src={call} alt="call" />
-              <span>+91 8618976974</span>
+              <span>+91 80740 20058</span>
             </div>
             <div>
               <img src={insta} alt="call" />
