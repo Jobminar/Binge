@@ -78,6 +78,10 @@
     padding: 0rem;
 }
 
+.nextstep img{
+  transform: scale(1.1); 
+}
+
 .result-input{
     font-family: IBM Plex Sans;
     font-size: 40px;
